@@ -14,7 +14,17 @@ The images of the data sets look like:
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49563140/139200129-6bb731aa-5b31-4ee0-8f04-061664cc4313.png" width="500" title="hover text">
 </p>
-The working of the model. 
+<h3> The working of the model</h3>
+
+We have taken raw images of manufactured barings, preprocessed it(cropped it to remove unnecessary data). Then we have used the Keras ImageDataGenerator to create augmentated data. For augmentation we will be using
+
+* Image rescale
+* Shear range transformation
+* Random rotation
+* Random brightness change
+* Random horizontal and vertical flip
+
+Then we have created a Keras sequential 6 layer model. Added a binary_crossentropy loss, Adam optimizer,
 <p align="center">
   <img src="https://user-images.githubusercontent.com/49563140/139199297-28cd46c6-4da8-4bfa-bbf3-7ca684f4d77c.png" width="800" title="hover text">
 </p> 
