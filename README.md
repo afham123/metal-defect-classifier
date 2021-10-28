@@ -8,3 +8,4 @@ Defects are an unwanted thing in casting industry. For removing this defective p
 We decided to make the inspection process automatic and for this, we need to make deep learning classification model for this problem.
 We have created a metal defect classifier that will generall
 With the help of this matel defect data set we have build a deep learning model with a accuracy of **99.30%** which will help to classifiy images as defective or okay. It will reduce error in the quality inspection and hence will save money as well as time. 
+![Screenshot (1065)](https://user-images.githubusercontent.com/49563140/139199297-28cd46c6-4da8-4bfa-bbf3-7ca684f4d77c.png)
